@@ -3,16 +3,16 @@
         "name" : "First Class Room",
         "image" : "rooms.jpg",
         "description" : "<p>Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios.",
-        "rate" : "220 / Day"
+        "room_rate" : "220 / Day"
     } , {
         "name" : "Deluxe Room",
         "image" : "rooms.jpg",
         "description" : "<p>Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.",
-        "rate" : "150 / Day"
+        "room_rate" : "150 / Day"
     } , {
         "name" : "Suite Room",
         "image" : "rooms.jpg",
         "description" : "<p>Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.",
-        "rate" : "180 / Day"
+        "room_rate" : "180 / Day"
     }							
 ]

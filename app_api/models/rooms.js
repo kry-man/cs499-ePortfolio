@@ -8,5 +8,5 @@ const roomsSchema = new mongoose.Schema({
     room_rate: { type: String, required: true },
 });
 
-const Rooms = mongoose.model('rooms', roomsSchema);
+const Rooms = mongoose.model('lodging', roomsSchema);
 module.exports = Rooms;
