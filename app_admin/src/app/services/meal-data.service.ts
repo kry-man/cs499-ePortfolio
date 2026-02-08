@@ -2,7 +2,7 @@ import { Inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { Trip } from '../models/trip'
+import { Meal } from '../models/meals'
 import { User } from '../models/user'
 import { AuthResponse } from '../models/auth-response';
 import { BROWSER_STORAGE } from '../storage';
@@ -11,30 +11,29 @@ import { AuthDataServiceInterface } from '../auth-data-service.interface';
 @Injectable({
   providedIn: 'root',
 })
-
-export class TripDataService implements AuthDataServiceInterface{
+export class MealDataService implements AuthDataServiceInterface{
   
   constructor(private http: HttpClient,
     @Inject(BROWSER_STORAGE) private storage: Storage) { }
 
-  private url = 'http://localhost:3000/api/trips';
+  private url = 'http://localhost:3000/api/meals';
 
-  getTrips() :Observable<Trip[]> {
-    return this.http.get<Trip[]>(this.url);
+  getMeals() :Observable<Meal[]> {
+    return this.http.get<Meal[]>(this.url);
   }
 
-  addTrip(formData: Trip) : Observable<Trip>{
-    return this.http.post<Trip>(this.url, formData);
+  addMeal(formData: Meal) : Observable<Meal>{
+    return this.http.post<Meal>(this.url, formData);
   }
 
-  getTrip(tripCode: string) : Observable<Trip[]> {
-    // console.log('Inside TripDataService::getTrips');
-    return this.http.get<Trip[]>(this.url + '/' + tripCode);
+  getMeal(mealName: string) : Observable<Meal[]> {
+     console.log('Inside MealDataService::getMeals');
+    return this.http.get<Meal[]>(this.url + '/' + mealName);
   }
 
-  updateTrip(formData: Trip) : Observable<Trip> {
-    // console.log('Inside TripDataService::addTrips');
-    return this.http.put<Trip>(this.url + '/' + formData.code, formData);
+  updateMeal(formData: Meal) : Observable<Meal> {
+     console.log('Inside MealDataService::addMeals');
+    return this.http.put<Meal>(this.url + '/' + formData.name, formData);
   }
 
   private handleError(error:any): Promise<any> {

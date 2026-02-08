@@ -1,18 +1,18 @@
 import { Component, OnInit, Input} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
-import { Trip } from '../models/trip';
+import { Room } from '../models/rooms';
 import { AuthenticationService } from '../services/authentication.service';
 
 @Component({
-  selector: 'app-trip-card',
+  selector: 'app-room-card',
   imports: [CommonModule],
-  templateUrl: './trip-card.component.html',
-  styleUrl: './trip-card.component.css',
+  templateUrl: './room-card.component.html',
+  styleUrl: './room-card.component.css',
 })
-export class TripCardComponent implements OnInit{
+export class RoomCardComponent implements OnInit{
 
-  @Input('trip') trip: any;
+  @Input('room') room: any;
 
   constructor(
     private router: Router,
@@ -28,9 +28,9 @@ export class TripCardComponent implements OnInit{
     return this.authenticationService.isLoggedIn();
   }
 
-  public editTrip(trip: Trip) {
-    localStorage.removeItem('tripCode');
-    localStorage.setItem('tripCode', trip.code);
-    this.router.navigate(['edit-trip']);
+  public editRoom(room: Room) {
+    localStorage.removeItem('roomName');
+    localStorage.setItem('roomName', room.name);
+    this.router.navigate(['edit-room']);
   }
 }

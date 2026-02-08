@@ -8,5 +8,5 @@ const mealsSchema = new mongoose.Schema({
     description: { type: String, required: true }
 });
 
-const Meals = mongoose.model('food', mealsSchema);
+const Meals = mongoose.model('foods', mealsSchema);
 module.exports = Meals;

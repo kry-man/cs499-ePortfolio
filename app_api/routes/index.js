@@ -45,6 +45,8 @@ function authenticateJWT(req, res, next) {
 
 // This is where we import the controller we will route
 const tripsController = require('../controllers/trips');
+const mealsController = require('../controllers/foods');
+const roomsController = require('../controllers/lodgings');
 const authController = require('../controllers/authentication');
 
 // define registration endpoint
@@ -68,5 +70,28 @@ router
     .route('/trips/:tripCode')
     .get(tripsController.tripsFindByCode)
     .put(authenticateJWT, tripsController.tripsUpdateTrip);
+
+router
+    .route('/meals')
+    .get(mealsController.mealsList) // GET method routes mealsList
+    .post(authenticateJWT, mealsController.mealsAddMeal) // POST method adds a meal
+
+// GET Method routes mealsByName - requires parameter
+router
+    .route('/meals/:mealName')
+    .get(mealsController.mealsByName)
+    .put(authenticateJWT, mealsController.mealsEditMeal);
+
+router
+    .route('/rooms')
+    .get(roomsController.roomsList) // GET method routes roomsList    
+    .post(authenticateJWT, roomsController.roomsAddRoom) // POST method adds a meal
+ 
+// GET Method routes roomsByName - requires parameter
+router
+    .route('/rooms/:roomName')
+    .get(roomsController.roomsByName)
+    .put(authenticateJWT, roomsController.roomsEditRoom);
+    
 
 module.exports = router;

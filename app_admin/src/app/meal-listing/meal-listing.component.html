@@ -1,0 +1,9 @@
+<!-- <p>meal-listing works!</p><pre>{{foods | json}}</pre> -->
+<div *ngIf="isLoggedIn()">
+    <button (click)="addMeal()" class="btn btn-info">Add Meal</button>
+</div>
+<div class="row">
+    <div *ngFor="let meal of foods" class="col-md-4">
+        <app-meal-card [meal]="meal" class="card-deck mt-2"></app-meal-card>
+    </div>
+</div>

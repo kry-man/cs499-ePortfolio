@@ -2,7 +2,7 @@ import { Inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { Trip } from '../models/trip'
+import { Room } from '../models/rooms'
 import { User } from '../models/user'
 import { AuthResponse } from '../models/auth-response';
 import { BROWSER_STORAGE } from '../storage';
@@ -12,29 +12,29 @@ import { AuthDataServiceInterface } from '../auth-data-service.interface';
   providedIn: 'root',
 })
 
-export class TripDataService implements AuthDataServiceInterface{
+export class RoomDataService implements AuthDataServiceInterface{
   
   constructor(private http: HttpClient,
     @Inject(BROWSER_STORAGE) private storage: Storage) { }
 
-  private url = 'http://localhost:3000/api/trips';
+  private url = 'http://localhost:3000/api/rooms';
 
-  getTrips() :Observable<Trip[]> {
-    return this.http.get<Trip[]>(this.url);
+  getRooms() :Observable<Room[]> {
+    return this.http.get<Room[]>(this.url);
   }
 
-  addTrip(formData: Trip) : Observable<Trip>{
-    return this.http.post<Trip>(this.url, formData);
+  addRoom(formData: Room) : Observable<Room>{
+    return this.http.post<Room>(this.url, formData);
   }
 
-  getTrip(tripCode: string) : Observable<Trip[]> {
-    // console.log('Inside TripDataService::getTrips');
-    return this.http.get<Trip[]>(this.url + '/' + tripCode);
+  getRoom(roomName: string) : Observable<Room[]> {
+     console.log('Inside RoomDataService::getRooms');
+    return this.http.get<Room[]>(this.url + '/' + roomName);
   }
 
-  updateTrip(formData: Trip) : Observable<Trip> {
-    // console.log('Inside TripDataService::addTrips');
-    return this.http.put<Trip>(this.url + '/' + formData.code, formData);
+  updateRoom(formData: Room) : Observable<Room> {
+     console.log('Inside RoomDataService::addRooms');
+    return this.http.put<Room>(this.url + '/' + formData.name, formData);
   }
 
   private handleError(error:any): Promise<any> {
@@ -59,3 +59,4 @@ export class TripDataService implements AuthDataServiceInterface{
       .catch(this.handleError);
   }
 }
+
