@@ -24,5 +24,5 @@ You can watch this video <a href="https://drive.google.com/file/d/15DEdsomYCAz8u
 <p>
 One of the things I overlooked when putting this project forward was having to establish a new git connection to push my work to my portfolio. I had to create a new connection to the ePortfolio and then make a copy with a new name of the original “travlr” file location on my computer. I panicked at first, but then I realized it was to my advantage since it makes it easier for me to track the iterations of change and easily recall it as a backup if necessary. Once I got past this hurdle, it felt easier to proceed. The biggest challenge for me overall is that my enhancements are intertwined with each other, so it has been difficult to separate them. Overall, I am enjoying the process because it forces me to focus and make decisions about the unique needs for each page. </p>
 <br>
-Enhancement One  can be accessed <a href="https://drive.google.com/file/d/15DEdsomYCAz8udnnIybnUqD5yC7f2vl2/view?usp=sharing"> here</a>.
+Enhancement One  can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio.git"> here</a>.
 </body>
