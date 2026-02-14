@@ -38,6 +38,6 @@ Enhancement One  can be accessed <a href="https://github.com/kry-man/cs499-ePort
 <p>I forgot that when putting the proposal for this project forward, I had to install a new mongoose connection for MongoDB so my web application can connect to the database. Since Enhancement One forced me to make a duplicate file to create my ePortfolio, I needed to install the mongoose packages for the new project to ensure the mongoose connection required to be a full-stack application. In doing so, I identified three vulnerabilities that I was able to fix to maintain current standards. I also had to rename the “rate” variable I created for rooms to “room_rate” to prevent a system default that I had not considered in the original naming as I built the schema. I verified that the database connection was set up and prepared to run with the newly developed structures, so that it will be prepared for Enhancement Three. </p>
 
 <br>
-Enhancement Teo  can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement2"> here</a>.
+Enhancement Two  can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement2"> here</a>.
 
 </body>
