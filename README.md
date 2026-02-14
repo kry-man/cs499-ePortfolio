@@ -3,8 +3,17 @@
 <h1> Krystal's CS499 ePortfolio </h1>
 
 <br>
-<p>placeholder text</p>
 
+<h2>Professional Self-Assessment</h2>
+<br>
+<p>I started my journey into Computer Science with a Data Analytics concentration in 2023, culminating in this portfolio in 2026. There have been multiple lessons I have taken away from the courses during my time in the program, but three stand out to me. The first one is the importance of object-oriented programming (OOP). There was a consistent throughline of using encapsulation, inheritance, polymorphism, and abstraction that allowed for easy maintenance, scalability, and reusability. Additionally, maintaining good programming practices and documentation. For example, using proper spacing and comments to ensure that someone could easily interpret my code and what I was trying to accomplish with it. Lastly, I have learned about the program development process. When I started, I had no coding experience nor how that worked in a professional setting. It has become clear to me that time, patience, careful planning, strong communication, and a lot of testing are required to adequately develop a program or solution. </p>
+
+<p>To accomplish the capstone outcomes, I intend to ensure that the environment is well designed to support customers and administrator needs. It will also provide clear uses for each stakeholder and be easy to use. I always consider the possibilities of when a request is made what should occur whether the request is valid or not. That way, there are clear limitations, and the application supports the requested solutions. In this way, I like to limit invalid requests and prevent exploiting the system with constant testing and debugging.</p>
+
+<p>My main goal is to become a database administrator. In the interim, I would love to take on entry-level tasks so I can achieve that goal. Being detail-oriented is a key part of my ability to achieve this goal because being mindful of syntax is critical. It is also important to remain organized and follow industry standards to maintain a reusable and well-documented instance. I also think my mindset of working with the end user experience in mind allows me to provide the best program for all of the parties involved.  
+</p>
+
+<p>I feel these skills will be instrumental in my career because I have learned how to use multiple programming languages to build a firm understanding of the logic needed to run a program, such as developing simple CRUD programs and making complex queries in SQL and NoSQL environments. Understanding how all these components come together makes me better equipped to work as part of a diverse team when the solution could become significantly more complicated. </p>
 <br>
 
 <h2> Code Review </h2>
@@ -49,7 +58,4 @@ One of the things I overlooked when putting this project forward was having to e
 
 <h6>Enhancement Three can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement3"> here</a>.</h6>
 
-<h2> Self-Assessment</h2>
-<br>
-<p></p>
 </body>
