@@ -1,7 +1,4 @@
----
-layout: default
-title: Krystal's CS499 ePortfolio
----
+<h1> Krystal's CS499 ePortfolio </h1>
 <br>
 
 <h2>Professional Self-Assessment</h2>
