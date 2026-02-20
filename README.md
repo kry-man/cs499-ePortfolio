@@ -1,7 +1,7 @@
-<body>
-  
-<h1> Krystal's CS499 ePortfolio </h1>
-
+---
+layout: default
+title: Krystal's CS499 ePortfolio
+---
 <br>
 
 <h2>Professional Self-Assessment</h2>
