@@ -72,7 +72,7 @@ header {
 footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #836d99;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
