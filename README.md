@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 <title>My Portfolio</title>
 <meta charset="UTF-8">
@@ -174,5 +173,3 @@ One of the things I overlooked when putting this project forward was having to e
 
 <h6>Enhancement Three can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement3"> here</a>.</h6>
 <footer></footer>
-</body>
-</html>
