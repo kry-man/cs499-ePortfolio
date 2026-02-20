@@ -1,5 +1,117 @@
-<h1> Krystal's CS499 ePortfolio </h1>
-<br>
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  margin: 0;
+}
+
+/* Header */
+header {
+  padding: 60px;
+  text-align: center;
+  background: #8e6da6;
+  color: white;
+}
+
+/* Top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #836d99;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #dfcaed;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .container, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+ <!-- Header -->
+<header>
+  <h1> Krystal's CS499 ePortfolio </h1>
+</header> 
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">Self Assessment</a>
+  <a href="#">Code Review</a>
+  <a href="#">Enhancement One</a>
+  <a href="#">Enhancement Two</a>
+  <a href="#">Enhancement Three</a>
+</div>  
+<!-- Content Container -->
+<div class="container">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
 
 <h2>Professional Self-Assessment</h2>
 <br>
@@ -61,3 +173,6 @@ One of the things I overlooked when putting this project forward was having to e
 <p>While modifying the artifact, I quickly realized that I had to build more files than I originally thought. For example, since my proposal, I forgot that to seed the new collections in MongoDB, I would need to create new models to seed each, since I needed to make new variables. Luckily, I was able to reuse my database model to make that simpler. I also realized when I created the data services for rooms and meals and was preparing to import the authentication service that I had to produce a solution to reuse the existing code, but just swap out the calls to each service when they are in use. Originally, I thought a dictionary would work, but I had to pivot and decided to implement an interface to easily access the user and authentication information. Then I was able to import the interface to the authentication service and easily align all of the services to require an approved user for access to get, push, and put information into the database. I was nervous at first to make something new, but once I realized it worked, I felt an intense sense of accomplishment. It was tedious to complete, yet so rewarding.</p>
 
 <h6>Enhancement Three can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement3"> here</a>.</h6>
+<footer></footer>
+</body>
+</html>
