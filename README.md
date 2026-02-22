@@ -25,6 +25,9 @@ header {
 .navbar {
   display: flex;
   background-color: #333;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 /* Navigation bar links */
@@ -33,11 +36,13 @@ header {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+  float: left;
+  display: block;
 }
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #8e6da6;
   color: black;
 }
 
@@ -59,6 +64,7 @@ footer {
   padding: 20px;
   text-align: center;
   background: #836d99;
+  color: white;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -154,4 +160,4 @@ One of the things I overlooked when putting this project forward was having to e
     </div>
   </div>
 </div>
-<footer></footer>
+<footer><h9>February 2026</h9></footer>
