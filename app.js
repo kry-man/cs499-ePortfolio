@@ -9,8 +9,6 @@ var handlebars = require('hbs');
 var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 var travelRouter = require('./app_server/routes/travel');
-var mealsRouter = require('./app_server/routes/meals');
-var roomsRouter = require('./app_server/routes/rooms');
 var apiRouter = require('./app_api/routes/index');
 
 var app = express();
@@ -51,8 +49,6 @@ app.use('/api', (req, res, next) => {
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/travel', travelRouter);
-app.use('/meals', mealsRouter);
-app.use('/rooms', roomsRouter);
 app.use('/api', apiRouter);
 
 // catch unathorized error and create 401

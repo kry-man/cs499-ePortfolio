@@ -6,13 +6,12 @@ import { Trip } from '../models/trip'
 import { User } from '../models/user'
 import { AuthResponse } from '../models/auth-response';
 import { BROWSER_STORAGE } from '../storage';
-import { AuthDataServiceInterface } from '../auth-data-service.interface';
 
 @Injectable({
   providedIn: 'root',
 })
 
-export class TripDataService implements AuthDataServiceInterface{
+export class TripDataService {
   
   constructor(private http: HttpClient,
     @Inject(BROWSER_STORAGE) private storage: Storage) { }
