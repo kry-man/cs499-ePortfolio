@@ -83,16 +83,16 @@ footer {
 </header> 
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a href="#section1">Self-Assessment</a>
-  <a href="#section2">Code Review</a>
-  <a href="#section3">Enhancement One</a>
-  <a href="#section4">Enhancement Two</a>
-  <a href="#section5">Enhancement Three</a>
+  <a href="#self_assess">Self-Assessment</a>
+  <a href="#code_review">Code Review</a>
+  <a href="#enhancement1">Enhancement One</a>
+  <a href="#enhancement2">Enhancement Two</a>
+  <a href="#enhancement3">Enhancement Three</a>
 </div>  
 <!-- Content Container -->
 <div class="container">
   <div class="main">
-    <div class= "Self-Assessment" id="section1">
+    <div class= "Self-Assessment" id="self_assess">
       <br>
       <br>
 <h2>Professional Self-Assessment</h2>
@@ -106,7 +106,7 @@ footer {
 <p>During the course of my capstone, I had to review the components that changed the original open-source code to a dynamic web application. This required referring to all the trip related data and coding to plan out what needed to be implemented and amended during the three enhancements as seen in the code review video. I was able to use the original details to define what needed to be added. Part of the capstone made me realize how important planning consistent naming conventions were so that similar names did not accidentally run the wrong code. I also found myself needing to create a new interface that I had not originally planned, but it best supported better practices to maintain a reusable administrative view in enhancement three. I enjoyed making the changes by ensuring the environment was well designed to support the needs of customers and administrators. My capstone highlights my decision-making process, my careful attention to detail, my willingness to pivot to produce a better final product, and my dedication to creating the best user experience possible.</p>
 <br>
     </div>
-    <div class= "Code Review" id="section2">
+    <div class= "Code Review" id="code_review">
       <br>
       <br>
 <h2> Code Review </h2>
@@ -115,7 +115,7 @@ footer {
 
 <h6>You can watch this video <a href="https://drive.google.com/file/d/15DEdsomYCAz8udnnIybnUqD5yC7f2vl2/view?usp=sharing"> here</a>. Based on the original project <a href="https://github.com/kry-man/cs465-fullstack.git"> here </a></h6>
     </div>
-    <div class= "enhancement one" id="section3">
+    <div class= "enhancement one" id="enhancement1">
       <br>
       <br>
 <h2> Enhancement One: Software Design and Engineering </h2>
@@ -131,7 +131,7 @@ One of the things I overlooked when putting this project forward was having to e
 
 <h6>Enhancement One  can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement1"> here</a>.</h6>
     </div>
-        <div class= "enhancement two" id="section4">
+        <div class= "enhancement two" id="enhancement2">
           <br>
           <br>
 <h2> Enhancement Two: Algorithms and Data Structures </h2>
@@ -145,7 +145,7 @@ One of the things I overlooked when putting this project forward was having to e
 
 <h6>Enhancement Two can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement2"> here</a>.</h6>
     </div>
-        <div class= "enhancement three" id="section5">
+        <div class= "enhancement three" id="enhancement3">
       <br>
       <br>          
 <h2> Enhancement Three: Databases </h2>
