@@ -47,24 +47,10 @@ header {
   flex-wrap: wrap;
 }
 
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #836d99;
-  padding: 20px;
-}
-
 /* Main column */
 .main {
   flex: 70%;
   background-color: #dfcaed;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
   padding: 20px;
 }
 
@@ -91,7 +77,7 @@ footer {
 </header> 
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a href="#">Self Assessment</a>
+  <a href="#section1">Self Assessment</a>
   <a href="#">Code Review</a>
   <a href="#">Enhancement One</a>
   <a href="#">Enhancement Two</a>
@@ -100,7 +86,7 @@ footer {
 <!-- Content Container -->
 <div class="container">
   <div class="main">
-
+    <div class= "section one" id="section1">
 <h2>Professional Self-Assessment</h2>
 <br>
 <p>I started my journey into Computer Science with a Data Analytics concentration in 2023, culminating in this portfolio in 2026. There have been multiple lessons I have taken away from the courses during my time in the program, but three stand out to me. The first one is the importance of object-oriented programming (OOP). There was a consistent throughline of using encapsulation, inheritance, polymorphism, and abstraction that allowed for easy maintenance, scalability, and reusability. Additionally, I learned the value of maintaining good programming practices and documentation. For example, using proper spacing and comments to ensure that someone could easily interpret my code and what I was trying to accomplish with it. Lastly, I have learned about the program development process. When I started, I had no coding experience nor how that worked in a professional setting. It has become clear to me that time, patience, careful planning, strong communication, and a lot of testing are required to adequately develop a program or solution. </p>
@@ -112,7 +98,7 @@ footer {
 
 <p>I feel these skills will be instrumental in my career because I have learned how to use multiple programming languages to build a firm understanding of the logic needed to run a program, such as developing simple CRUD programs and making complex queries in SQL and NoSQL environments. Understanding how all these components come together makes me better equipped to work as part of a diverse team when the solution could become significantly more complicated. </p>
 <br>
-
+    </div>
 <h2> Code Review </h2>
 
 <br>
