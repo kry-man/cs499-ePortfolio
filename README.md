@@ -106,9 +106,9 @@ footer {
 <br>
     </div>
     <div class= "Code Review" id="section2">
+      <br>
+      <br>
 <h2> Code Review </h2>
-
-<br>
 
 <p>The code review encompasses the original state of the enhancements in this portfolio. I walk through all the existing code and identify where the enhancements will be implemented.</p>
 
