@@ -94,6 +94,7 @@ footer {
   <div class="main">
     <div class= "Self-Assessment" id="section1">
       <br>
+      <br>
 <h2>Professional Self-Assessment</h2>
 <p>I started my journey into Computer Science with a Data Analytics concentration in 2023, culminating in this portfolio in 2026. There have been multiple lessons I have taken away from the courses during my time in the program, but three stand out to me. The first one is the importance of object-oriented programming (OOP). There was a consistent throughline of using encapsulation, inheritance, polymorphism, and abstraction that allowed for easy maintenance, scalability, and reusability. Additionally, I learned the value of maintaining good programming practices and documentation. For example, using proper spacing and comments to ensure that someone could easily interpret my code and what I was trying to accomplish with it. Lastly, I have learned about the program development process. When I started, I had no coding experience nor how that worked in a professional setting. It has become clear to me that time, patience, careful planning, strong communication, and a lot of testing are required to adequately develop a program or solution. </p>
 
@@ -115,9 +116,9 @@ footer {
 <h6>You can watch this video <a href="https://drive.google.com/file/d/15DEdsomYCAz8udnnIybnUqD5yC7f2vl2/view?usp=sharing"> here</a>. Based on the original project <a href="https://github.com/kry-man/cs465-fullstack.git"> here </a></h6>
     </div>
     <div class= "enhancement one" id="section3">
+      <br>
+      <br>
 <h2> Enhancement One: Software Design and Engineering </h2>
-
-<br>
 
 <p>The enhanced artifact is building on the CS-465 Full Stack Development I course’s Travlr Getaways Project. The original document was created on November 2, 2025, using an open-source template provided in my course, with its last update on December 12, 2025, for its final submission in CS-465. This project was originally created to transform a static HTML website and create a full-stack web application using a MEAN approach. </p>
 
@@ -131,9 +132,9 @@ One of the things I overlooked when putting this project forward was having to e
 <h6>Enhancement One  can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement1"> here</a>.</h6>
     </div>
         <div class= "enhancement two" id="section4">
+          <br>
+          <br>
 <h2> Enhancement Two: Algorithms and Data Structures </h2>
-<br>
-
 <p>The enhanced artifact is building on the Travlr Getaways Project with the changes from Enhancement One. Enhancement One was created and last updated on January 25, 2026, based on the original project from November 2, 2025, using an open-source template provided in my course, with its last update on December 12, 2025, for its final submission in CS-465. This project was originally created to transform a static HTML website and create a full-stack web application using a MEAN approach. </p>
 
 <p>I purposely selected this artifact for enhancement because it supports growing my portal management skills that I utilize for my current employer. By further developing the application using a MEAN approach, I can find new ways to enhance existing portals to be dynamic and have better structures to output data to the different users engaging with it. In the course, I was only tasked with building out the travel page for customers and the travel administrative page for the eight-week course; however, I wanted to fully realize and develop the remaining pages to gain experience toward my long-term career goals. In order to further develop the algorithms and data structures, I implemented two new schemas under the “models” folder for the new databases I am connecting to the web application in Enhancement Three. The new schemas demonstrate my commitment to consistent data structures throughout a singular web application to ensure ease of use for both the end users, administrators, and developers. I ensured that the database connection was properly configured so that Enhancement Three will be ready for implementation.</p>
@@ -145,8 +146,9 @@ One of the things I overlooked when putting this project forward was having to e
 <h6>Enhancement Two can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement2"> here</a>.</h6>
     </div>
         <div class= "enhancement three" id="section5">
+      <br>
+      <br>          
 <h2> Enhancement Three: Databases </h2>
-<br>
 
 <p>The enhanced artifact is building on the Travlr Getaways Project with the changes from Enhancements One and Two. Enhancement Two was created and last updated on February 1, 2026, based on the original project from November 2, 2025, using an open-source template provided in my course, with its last update on December 12, 2025, for its final submission in CS-465. This project was originally created to transform a static HTML website and create a full-stack web application using a MEAN approach.</p>
 
