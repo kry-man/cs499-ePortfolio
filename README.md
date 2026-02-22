@@ -43,7 +43,7 @@ header {
 /* Change color on hover */
 .navbar a:hover {
   background-color: #8e6da6;
-  color: black;
+  color: white;
 }
 
 /* Column container */
@@ -95,7 +95,6 @@ footer {
     <div class= "Self-Assessment" id="section1">
       <br>
 <h2>Professional Self-Assessment</h2>
-<br>
 <p>I started my journey into Computer Science with a Data Analytics concentration in 2023, culminating in this portfolio in 2026. There have been multiple lessons I have taken away from the courses during my time in the program, but three stand out to me. The first one is the importance of object-oriented programming (OOP). There was a consistent throughline of using encapsulation, inheritance, polymorphism, and abstraction that allowed for easy maintenance, scalability, and reusability. Additionally, I learned the value of maintaining good programming practices and documentation. For example, using proper spacing and comments to ensure that someone could easily interpret my code and what I was trying to accomplish with it. Lastly, I have learned about the program development process. When I started, I had no coding experience nor how that worked in a professional setting. It has become clear to me that time, patience, careful planning, strong communication, and a lot of testing are required to adequately develop a program or solution. </p>
 
 <p>To accomplish the capstone outcomes, I intend to ensure that the environment is well designed to support customers and administrator needs. It will also provide clear uses for each stakeholder and be easy to use. I always consider the possibilities of what should occur when a request is made, whether the request is valid or not. That way, there are clear limitations, and the application supports the requested solutions. In this way, I like to limit invalid requests and prevent exploiting the system with constant testing and debugging.</p>
