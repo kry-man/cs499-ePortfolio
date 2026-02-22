@@ -93,6 +93,7 @@ footer {
 <div class="container">
   <div class="main">
     <div class= "Self-Assessment" id="section1">
+      <br>
 <h2>Professional Self-Assessment</h2>
 <br>
 <p>I started my journey into Computer Science with a Data Analytics concentration in 2023, culminating in this portfolio in 2026. There have been multiple lessons I have taken away from the courses during my time in the program, but three stand out to me. The first one is the importance of object-oriented programming (OOP). There was a consistent throughline of using encapsulation, inheritance, polymorphism, and abstraction that allowed for easy maintenance, scalability, and reusability. Additionally, I learned the value of maintaining good programming practices and documentation. For example, using proper spacing and comments to ensure that someone could easily interpret my code and what I was trying to accomplish with it. Lastly, I have learned about the program development process. When I started, I had no coding experience nor how that worked in a professional setting. It has become clear to me that time, patience, careful planning, strong communication, and a lot of testing are required to adequately develop a program or solution. </p>
@@ -160,4 +161,4 @@ One of the things I overlooked when putting this project forward was having to e
     </div>
   </div>
 </div>
-<footer><h9>February 2026</h9></footer>
+<footer><h10>Last Updated February 2026</h10></footer>
