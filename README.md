@@ -77,16 +77,16 @@ footer {
 </header> 
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a href="#section1">Self Assessment</a>
-  <a href="#">Code Review</a>
-  <a href="#">Enhancement One</a>
-  <a href="#">Enhancement Two</a>
-  <a href="#">Enhancement Three</a>
+  <a href="#section1">Self-Assessment</a>
+  <a href="#section2">Code Review</a>
+  <a href="#section3">Enhancement One</a>
+  <a href="#section4">Enhancement Two</a>
+  <a href="#section5">Enhancement Three</a>
 </div>  
 <!-- Content Container -->
 <div class="container">
   <div class="main">
-    <div class= "section one" id="section1">
+    <div class= "Self-Assessment" id="section1">
 <h2>Professional Self-Assessment</h2>
 <br>
 <p>I started my journey into Computer Science with a Data Analytics concentration in 2023, culminating in this portfolio in 2026. There have been multiple lessons I have taken away from the courses during my time in the program, but three stand out to me. The first one is the importance of object-oriented programming (OOP). There was a consistent throughline of using encapsulation, inheritance, polymorphism, and abstraction that allowed for easy maintenance, scalability, and reusability. Additionally, I learned the value of maintaining good programming practices and documentation. For example, using proper spacing and comments to ensure that someone could easily interpret my code and what I was trying to accomplish with it. Lastly, I have learned about the program development process. When I started, I had no coding experience nor how that worked in a professional setting. It has become clear to me that time, patience, careful planning, strong communication, and a lot of testing are required to adequately develop a program or solution. </p>
@@ -99,6 +99,7 @@ footer {
 <p>I feel these skills will be instrumental in my career because I have learned how to use multiple programming languages to build a firm understanding of the logic needed to run a program, such as developing simple CRUD programs and making complex queries in SQL and NoSQL environments. Understanding how all these components come together makes me better equipped to work as part of a diverse team when the solution could become significantly more complicated. </p>
 <br>
     </div>
+    <div class= "Code Review" id="section2">
 <h2> Code Review </h2>
 
 <br>
@@ -106,7 +107,8 @@ footer {
 <p>The code review encompasses the original state of the enhancements in this portfolio. I walk through all the existing code and identify where the enhancements will be implemented.</p>
 
 <h6>You can watch this video <a href="https://drive.google.com/file/d/15DEdsomYCAz8udnnIybnUqD5yC7f2vl2/view?usp=sharing"> here</a>. Based on the original project <a href="https://github.com/kry-man/cs465-fullstack.git"> here </a></h6>
-
+    </div>
+    <div class= "enhancement one" id="section3">
 <h2> Enhancement One: Software Design and Engineering </h2>
 
 <br>
@@ -121,7 +123,8 @@ footer {
 One of the things I overlooked when putting this project forward was having to establish a new git connection to push my work to my portfolio. I had to create a new connection to the ePortfolio and then make a copy with a new name of the original “travlr” file location on my computer. I panicked at first, but then I realized it was to my advantage since it makes it easier for me to track the iterations of change and easily recall them as a backup if necessary. Once I got past this hurdle, it felt easier to proceed. The biggest challenge for me overall is that my enhancements are intertwined with each other, so it has been difficult to separate them. Overall, I am enjoying the process because it forces me to focus and make decisions about the unique needs for each page. </p>
 
 <h6>Enhancement One  can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement1"> here</a>.</h6>
-
+    </div>
+        <div class= "enhancement two" id="section4">
 <h2> Enhancement Two: Algorithms and Data Structures </h2>
 <br>
 
@@ -134,7 +137,8 @@ One of the things I overlooked when putting this project forward was having to e
 <p>I forgot that when putting the proposal for this project forward, I had to install a new mongoose connection for MongoDB so my web application can connect to the database. Since Enhancement One forced me to make a duplicate file to create my ePortfolio, I needed to install the mongoose packages for the new project to ensure the mongoose connection required to be a full-stack application. In doing so, I identified three vulnerabilities that I was able to fix to maintain current standards. I also had to rename the “rate” variable I created for rooms to “room_rate” to prevent a system default that I had not considered in the original naming as I built the schema. I verified that the database connection was set up and prepared to run with the newly developed structures, so that it will be prepared for Enhancement Three. </p>
 
 <h6>Enhancement Two can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement2"> here</a>.</h6>
-
+    </div>
+        <div class= "enhancement three" id="section5">
 <h2> Enhancement Three: Databases </h2>
 <br>
 
@@ -147,4 +151,7 @@ One of the things I overlooked when putting this project forward was having to e
 <p>While modifying the artifact, I quickly realized that I had to build more files than I originally thought. For example, since my proposal, I forgot that to seed the new collections in MongoDB, I would need to create new models to seed each, since I needed to make new variables. Luckily, I was able to reuse my database model to make that simpler. I also realized when I created the data services for rooms and meals and was preparing to import the authentication service that I had to produce a solution to reuse the existing code, but just swap out the calls to each service when they are in use. Originally, I thought a dictionary would work, but I had to pivot and decided to implement an interface to easily access the user and authentication information. Then I was able to import the interface to the authentication service and easily align all of the services to require an approved user for access to get, push, and put information into the database. I was nervous at first to make something new, but once I realized it worked, I felt an intense sense of accomplishment. It was tedious to complete, yet so rewarding.</p>
 
 <h6>Enhancement Three can be accessed <a href="https://github.com/kry-man/cs499-ePortfolio/tree/enhancement3"> here</a>.</h6>
+    </div>
+  </div>
+</div>
 <footer></footer>
